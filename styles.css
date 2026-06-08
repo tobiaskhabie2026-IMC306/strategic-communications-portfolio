@@ -544,20 +544,6 @@ footer p {
     font-weight: 700;
   }
 }
-
-@media (max-width: 620px) {
-  .section,
-  .hero,
-  .contact {
-    padding: 5rem 6vw;
-  }
-
-  .case-study,
-  .case-details,
-  .work-grid,
-  .blog-grid {
-    grid-template-columns: 1fr;
-  }
 .disclosure-statement {
   padding: 4rem 1.5rem;
   background: #c7d8c8;
@@ -588,6 +574,21 @@ footer p {
   line-height: 1.7;
   color: #1f2a24;
 }
+
+@media (max-width: 620px) {
+  .section,
+  .hero,
+  .contact {
+    padding: 5rem 6vw;
+  }
+
+  .case-study,
+  .case-details,
+  .work-grid,
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
   .case-study {
     gap: 0;
   }
