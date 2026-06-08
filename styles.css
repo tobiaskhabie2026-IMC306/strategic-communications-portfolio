@@ -546,7 +546,8 @@ footer p {
 }
 .disclosure-statement {
     padding: 3rem 1.5rem;
-    background: var(--paper);
+    background: var(--sage);
+    border-top: 1px solid var(--coral);
 }
 
 .disclosure-card {
