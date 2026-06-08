@@ -558,7 +558,36 @@ footer p {
   .blog-grid {
     grid-template-columns: 1fr;
   }
+.disclosure-statement {
+  padding: 4rem 1.5rem;
+  background: #c7d8c8;
+}
 
+.disclosure-card {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 2.25rem;
+  background: #f7f1e8;
+  border-left: 5px solid #ff6b4a;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.disclosure-card .eyebrow {
+  margin-bottom: 1rem;
+  color: #ff6b4a;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.disclosure-card p:last-child {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #1f2a24;
+}
   .case-study {
     gap: 0;
   }
